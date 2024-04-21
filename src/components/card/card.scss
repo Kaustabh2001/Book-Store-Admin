@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    width: 75%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+
+  .cost{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .book_details{
+    display: flex;
+    justify-content: space-between;
+
+    .Book{
+        width: 50%;
+    }
+  }
+  
+  .partA {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .partB {
+    width: 25%;
+    padding: 20px;
+  }
+  
+  .partB h2 {
+    margin-bottom: 10px;
+  }
+  
+  .partB > div {
+    margin-bottom: 5px;
+  }
